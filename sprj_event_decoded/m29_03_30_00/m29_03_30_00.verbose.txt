@@ -1,0 +1,63 @@
+Event ID: 0, Int: 0
+Parameters: {} ()
+      0 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+      1 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+      2 Initialize Event (Event ID: 12901104, Slot Number: 0, Arguments: {12900000, 2901001, 2901000})
+      3 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+      4 Initialize Event (Event ID: 4294967295, Slot Number: 1, Arguments: {0})
+      5 Initialize Event (Event ID: 4294967295, Slot Number: 2, Arguments: {0})
+      6 Initialize Event (Event ID: 12901104, Slot Number: 1, Arguments: {12900001, 2901006, 2901005})
+      7 Initialize Event (Event ID: 12900900, Slot Number: 0, Arguments: {2900500, 2902000, 2902001, 2902010, 2902011})
+      8 Initialize Event (Event ID: 12900900, Slot Number: 1, Arguments: {2900500, 2902001, 2902000, 2902011, 2902010})
+      9 Initialize Event (Event ID: 12900950, Slot Number: 0, Arguments: {2900100, 2902020})
+
+Event ID: 12900900, Int: 0
+Parameters: {X0:3, X4:7, X8:11, X12:15, X16:19} (iiiii)
+      0 IF Character AI State (Result Condition Group: AND(01), Target Entity ID: X0:3, AI State: Combat)
+      1 IF In/Outside Area (Result Condition Group: AND(01), Desired State: Inside, Target Entity ID: X0:3, Area Entity ID: X12:15)
+      2 IF In/Outside Area (Result Condition Group: AND(01), Desired State: Inside, Target Entity ID: 00010000, Area Entity ID: X16:19)
+      3 IF Character AI State (Result Condition Group: AND(02), Target Entity ID: X0:3, AI State: Combat)
+      4 IF Condition Group (Result Condition Group: AND(03), Desired Condition Group State: FAIL, Target Condition Group: AND(02))
+      5 IF In/Outside Area (Result Condition Group: AND(03), Desired State: Inside, Target Entity ID: X0:3, Area Entity ID: X4:7)
+      6 IF Condition Group (Result Condition Group: OR(01), Desired Condition Group State: PASS, Target Condition Group: AND(01))
+      7 IF Condition Group (Result Condition Group: OR(01), Desired Condition Group State: PASS, Target Condition Group: AND(03))
+      8 IF Condition Group (Result Condition Group: MAIN, Desired Condition Group State: PASS, Target Condition Group: OR(01))
+      9 Set Character Home (Entity ID: X0:3, Area Entity ID: X8:11)
+     10 Request Character AI Command (Entity ID: X0:3, Command ID: 1, Slot Number: 0)
+     11 Request Character AI Re-plan (Entity ID: X0:3)
+     12 IF In/Outside Area (Result Condition Group: AND(04), Desired State: Inside, Target Entity ID: X0:3, Area Entity ID: X4:7)
+     13 IF Character AI State (Result Condition Group: AND(05), Target Entity ID: X0:3, AI State: Combat)
+     14 IF All Players In/Outside Area (Result Condition Group: AND(05), Desired State: Outside, Area Entity ID: X16:19)
+     15 IF Condition Group (Result Condition Group: OR(02), Desired Condition Group State: PASS, Target Condition Group: AND(04))
+     16 IF Condition Group (Result Condition Group: OR(02), Desired Condition Group State: PASS, Target Condition Group: AND(05))
+     17 IF Condition Group (Result Condition Group: MAIN, Desired Condition Group State: PASS, Target Condition Group: OR(02))
+     18 GOTO IF Condition Group State (Compiled) (Label: Label 0, Desired Condition Group State: PASS, Target Condition Group: AND(05))
+     19 Request Character AI Command (Entity ID: X0:3, Command ID: 100, Slot Number: 0)
+     20 Request Character AI Re-plan (Entity ID: X0:3)
+     21 IF In/Outside Area (Result Condition Group: MAIN, Desired State: Inside, Target Entity ID: X0:3, Area Entity ID: X8:11)
+     22 Label 0 ()
+     23 Request Character AI Command (Entity ID: X0:3, Command ID: -1, Slot Number: 0)
+     24 Request Character AI Re-plan (Entity ID: X0:3)
+     25 END Unconditionally (Execution End Type: Restart)
+
+Event ID: 12900950, Int: 0
+Parameters: {X0:3, X4:7} (ii)
+      0 IF In/Outside Area (Result Condition Group: MAIN, Desired State: Inside, Target Entity ID: X0:3, Area Entity ID: X4:7)
+      1 Set SpEffect (Entity ID: X0:3, SpEffect ID: 5900, Apply SpEffect HP Correction to NPC Parts: FALSE)
+      2 IF In/Outside Area (Result Condition Group: MAIN, Desired State: Outside, Target Entity ID: X0:3, Area Entity ID: X4:7)
+      3 Clear SpEffect (Entity ID: X0:3, SpEffect ID: 5900)
+      4 END Unconditionally (Execution End Type: Restart)
+
+
+String Table:
+0: N:\SPRJ\data\Param\event\m29.emevd
+70: 
+72: 
+74: 
+76: 
+78: 
+
+
+
+Linked .emevd Files:
+N:\SPRJ\data\Param\event\m29.emevd

@@ -1,0 +1,116 @@
+Event ID: 0, Int: 0
+Parameters: {} ()
+      0 Initialize Event (Event ID: 12110200, Slot Number: 0, Arguments: {2111000, 12110000})
+      1 Initialize Event (Event ID: 12110990, Slot Number: 0, Arguments: {0})
+      2 Initialize Event (Event ID: 12110400, Slot Number: 0, Arguments: {0})
+      3 Initialize Event (Event ID: 12110100, Slot Number: 0, Arguments: {0})
+      4 Initialize Event (Event ID: 12110300, Slot Number: 0, Arguments: {0})
+      5 Initialize Event (Event ID: 12110301, Slot Number: 0, Arguments: {0})
+      6 Initialize Event (Event ID: 12110302, Slot Number: 0, Arguments: {0})
+      7 Initialize Event (Event ID: 7000, Slot Number: 52, Arguments: {2110950, 2111950, 999, 12117800})
+      8 Initialize Event (Event ID: 7100, Slot Number: 52, Arguments: {72110200, 2111950})
+      9 Initialize Event (Event ID: 7200, Slot Number: 52, Arguments: {72110100, 2111950, 2102952})
+     10 Initialize Event (Event ID: 7300, Slot Number: 52, Arguments: {72102110, 2111950})
+
+Event ID: 50, Int: 0
+Parameters: {} ()
+      0 Set Character HP Bar Display (Entity ID: 2110700, Disabled/Enabled: Disabled)
+      1 Set Character Gravity Invalidation (Entity ID: 2110700, Disabled/Enabled: Disabled)
+      2 Set Character Map Collision (Entity ID: 2110700, Disabled: TRUE)
+
+Event ID: 12110100, Int: 0
+Parameters: {} ()
+      0 Set Network Sync State (Disabled/Enabled: Disabled)
+      1 IF Action Button in Area (Result Condition Group: MAIN, Action Button Parameter ID: 2110000, Area Formation Entity ID: 2110700)
+      2 Display Generic Dialog (Message ID: 10010190, Dialog Type: OK/CANCEL, Number of Options: 1 Button, Entity ID: -1, Display Distance: 3.000)
+      3 END Unconditionally (Execution End Type: Restart)
+
+Event ID: 12110200, Int: 0
+Parameters: {X0:3, X4:7} (ii)
+      0 GOTO IF Event Flag (Label: Label 0, Desired Flag State: OFF, Target Event Flag Type: Event ID + Slot Number, Target Event Flag ID: 00000000)
+      1 Reproduce Object Animation (Target Object Entity ID: X0:3, Animation ID: 0)
+      2 Set ObjAct State (Entity ID: X0:3, Object Parameter ID: -1, State: Disabled)
+      3 Set Object Treasure State (Target Object Entity ID: X0:3, State: Enabled)
+      4 END Unconditionally (Execution End Type: End)
+      5 Label 0 ()
+      6 IF ObjAct Event Flag (Result Condition Group: MAIN, ObjAct Event Flag: X4:7)
+      7 WAIT Fixed Time (Frames) (Number Of Frames: 10)
+      8 Set Object Treasure State (Target Object Entity ID: X0:3, State: Enabled)
+
+Event ID: 12110300, Int: 0
+Parameters: {} ()
+      0 END IF Event Flag (Execution End Type: End, Desired Flag State: ON, Target Event Flag Type: Event ID, Target Event Flag ID: 00000000)
+      1 END IF Multiplayer State (Execution End Type: End, Desired Multiplayer State: Client)
+      2 Create Object-following SFX (Object Entity ID: 2111100, Dummypoly ID: 200, SFX ID: 900201)
+      3 IF Action Button in Area (Result Condition Group: MAIN, Action Button Parameter ID: 2110010, Area Formation Entity ID: 2111100)
+      4 Force Animation Playback (Entity ID: 10000, Animation ID: 101140, Should Loop: FALSE, Should Wait For Completion: FALSE, Ignore Wait For Transition: FALSE)
+      5 Award Item Lot (Item Lot ID: 2110800)
+      6 Delete Object-following SFX (Object Entity ID: 2111100, Should Delete Root: TRUE)
+
+Event ID: 12110301, Int: 0
+Parameters: {} ()
+      0 END IF Event Flag (Execution End Type: End, Desired Flag State: ON, Target Event Flag Type: Event ID, Target Event Flag ID: 00000000)
+      1 END IF Multiplayer State (Execution End Type: End, Desired Multiplayer State: Client)
+      2 Create Object-following SFX (Object Entity ID: 2111101, Dummypoly ID: 200, SFX ID: 900201)
+      3 IF Action Button in Area (Result Condition Group: MAIN, Action Button Parameter ID: 2110011, Area Formation Entity ID: 2111101)
+      4 Force Animation Playback (Entity ID: 10000, Animation ID: 101140, Should Loop: FALSE, Should Wait For Completion: FALSE, Ignore Wait For Transition: FALSE)
+      5 Award Item Lot (Item Lot ID: 2110810)
+      6 Delete Object-following SFX (Object Entity ID: 2111101, Should Delete Root: TRUE)
+
+Event ID: 12110302, Int: 0
+Parameters: {} ()
+      0 END IF Event Flag (Execution End Type: End, Desired Flag State: ON, Target Event Flag Type: Event ID, Target Event Flag ID: 00000000)
+      1 END IF Multiplayer State (Execution End Type: End, Desired Multiplayer State: Client)
+      2 Create Object-following SFX (Object Entity ID: 2111102, Dummypoly ID: 200, SFX ID: 900201)
+      3 IF Action Button in Area (Result Condition Group: MAIN, Action Button Parameter ID: 2110012, Area Formation Entity ID: 2111102)
+      4 Force Animation Playback (Entity ID: 10000, Animation ID: 101140, Should Loop: FALSE, Should Wait For Completion: FALSE, Ignore Wait For Transition: FALSE)
+      5 Award Item Lot (Item Lot ID: 2110000)
+      6 Delete Object-following SFX (Object Entity ID: 2111102, Should Delete Root: TRUE)
+
+Event ID: 12110400, Int: 0
+Parameters: {} ()
+      0 GOTO IF Event Flag (Label: Label 0, Desired Flag State: ON, Target Event Flag Type: Event Flag, Target Event Flag ID: 00009802)
+      1 GOTO IF Event Flag (Label: Label 1, Desired Flag State: ON, Target Event Flag Type: Event Flag, Target Event Flag ID: 00009801)
+      2 GOTO IF Event Flag (Label: Label 2, Desired Flag State: ON, Target Event Flag Type: Event Flag, Target Event Flag ID: 00009800)
+      3 Label 2 ()
+      4 Activate Map Part (Map Part Entity ID: 2114002, State: Enabled)
+      5 Activate Map Part (Map Part Entity ID: 2114000, State: Disabled)
+      6 Activate Map Part (Map Part Entity ID: 2114001, State: Disabled)
+      7 END Unconditionally (Execution End Type: End)
+      8 Label 1 ()
+      9 Activate Map Part (Map Part Entity ID: 2114002, State: Disabled)
+     10 Activate Map Part (Map Part Entity ID: 2114000, State: Enabled)
+     11 Activate Map Part (Map Part Entity ID: 2114001, State: Disabled)
+     12 END Unconditionally (Execution End Type: End)
+     13 Label 0 ()
+     14 Activate Map Part (Map Part Entity ID: 2114002, State: Disabled)
+     15 Activate Map Part (Map Part Entity ID: 2114000, State: Disabled)
+     16 Activate Map Part (Map Part Entity ID: 2114001, State: Enabled)
+     17 END Unconditionally (Execution End Type: End)
+
+Event ID: 12110990, Int: 0
+Parameters: {} ()
+      0 END IF Event Flag (Execution End Type: End, Desired Flag State: ON, Target Event Flag Type: Event ID, Target Event Flag ID: 00000000)
+      1 END IF Multiplayer State (Execution End Type: End, Desired Multiplayer State: Client)
+      2 IF Player Standing On Hitbox (Result Condition Group: MAIN, Hitbox Entity ID: 02113500)
+      3 Parameter Output (Category: Primary Parameters, Playthrough Log Name: "PC情報_現実拠点到達時", Multistate to Output: Host Only)
+      4 Parameter Output (Category: Temporary Parameters, Playthrough Log Name: "PC情報_現実拠点到達時", Multistate to Output: Host Only)
+      5 Parameter Output (Category: Weapon, Playthrough Log Name: "PC情報_現実拠点到達時", Multistate to Output: Host Only)
+      6 Parameter Output (Category: Armor, Playthrough Log Name: "PC情報_現実拠点到達時", Multistate to Output: Host Only)
+      7 Initialize Event (Event ID: 9350, Slot Number: 0, Arguments: {2})
+      8 Award Achievement (Achievement ID: 12)
+
+
+String Table:
+0: PC情報_現実拠点到達時
+26: N:\SPRJ\data\Param\event\common.emevd
+102: 
+104: 
+106: 
+108: 
+110: 
+
+
+
+Linked .emevd Files:
+N:\SPRJ\data\Param\event\common.emevd

@@ -1,0 +1,18 @@
+Event ID: 0, Int: 0
+Parameters: {} ()
+      0 Initialize Event (Event ID: 12901146, Slot Number: 0, Arguments: {2902250, 2901700})
+      1 Initialize Event (Event ID: 12901146, Slot Number: 1, Arguments: {2902251, 2901701})
+
+
+String Table:
+0: N:\SPRJ\data\Param\event\m29.emevd
+70: 
+72: 
+74: 
+76: 
+78: 
+
+
+
+Linked .emevd Files:
+N:\SPRJ\data\Param\event\m29.emevd

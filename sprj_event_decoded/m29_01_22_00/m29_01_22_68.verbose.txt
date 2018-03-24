@@ -1,0 +1,53 @@
+Event ID: 0, Int: 0
+Parameters: {} ()
+      0 Initialize Event (Event ID: 12906654, Slot Number: 0, Arguments: {2902100, 2901100, 2901101, 2903100, 2903101, 12901800, 12900500, 12905500})
+      1 Initialize Event (Event ID: 12906658, Slot Number: 0, Arguments: {2902100, 2901100, 12901800, 12900500, 12905500, 12905510})
+      2 Initialize Event (Event ID: 12906666, Slot Number: 0, Arguments: {2900100, 2902110, 2903110, 2903111, 12901800, 12905520, 12905510})
+      3 Initialize Event (Event ID: 12906670, Slot Number: 0, Arguments: {12901800, 2903110, 2903111})
+      4 Initialize Event (Event ID: 12901230, Slot Number: 0, Arguments: {12900100, 2901110, 2901920})
+      5 Initialize Event (Event ID: 12901225, Slot Number: 0, Arguments: {12901800, 305000})
+      6 Initialize Event (Event ID: 12901235, Slot Number: 0, Arguments: {12905520, 305000, 9320})
+      7 Initialize Event (Event ID: 12901212, Slot Number: 0, Arguments: {12901800, 130500160, 130501160, 130502160, 130503160, 130502160, 130503160, 6360})
+      8 Initialize Event (Event ID: 12906662, Slot Number: 0, Arguments: {2900100, 305001, 12901800, 12905500, 12905520})
+      9 Initialize Event (Event ID: 12906674, Slot Number: 0, Arguments: {2900100, 12901800, 1082130432, 1086324736})
+     10 Initialize Event (Event ID: 12901207, Slot Number: 0, Arguments: {2900100, 2901100, 2901101, 2903100, 2903101, 12901800})
+     11 Initialize Event (Event ID: 12901216, Slot Number: 0, Arguments: {2900100, 2902100, 7000, 7001, 12901800, 12905500, 12900500, 12900100})
+     12 Initialize Event (Event ID: 12906654, Slot Number: 1, Arguments: {2902200, 2901200, 2901201, 2903200, 2903201, 12901801, 12900600, 12905600})
+     13 Initialize Event (Event ID: 12906658, Slot Number: 1, Arguments: {2902200, 2901200, 12901801, 12900600, 12905600, 12905610})
+     14 Initialize Event (Event ID: 12906666, Slot Number: 1, Arguments: {2900200, 2902210, 2903210, 2903211, 12901801, 12905620, 12905610})
+     15 Initialize Event (Event ID: 12906670, Slot Number: 1, Arguments: {12901801, 2903210, 2903211})
+     16 Initialize Event (Event ID: 12901230, Slot Number: 1, Arguments: {12900200, 2901210, 2901920})
+     17 Initialize Event (Event ID: 12901225, Slot Number: 1, Arguments: {12901801, 305010})
+     18 Initialize Event (Event ID: 12901235, Slot Number: 1, Arguments: {12905620, 305010, 9320})
+     19 Initialize Event (Event ID: 12901212, Slot Number: 1, Arguments: {12901801, 130510160, 130511160, 130512160, 130513160, 130512160, 130513160, 6360})
+     20 Initialize Event (Event ID: 12906662, Slot Number: 1, Arguments: {2900200, 305002, 12901801, 12905600, 12905620})
+     21 Initialize Event (Event ID: 12906674, Slot Number: 1, Arguments: {2900200, 12901801, 1082130432, 1086324736})
+     22 Initialize Event (Event ID: 12901207, Slot Number: 1, Arguments: {2900200, 2901200, 2901201, 2903200, 2903201, 12901801})
+     23 Initialize Event (Event ID: 12901216, Slot Number: 1, Arguments: {2900200, 2902200, 7000, 7001, 12901801, 12905600, 12900600, 12900200})
+     24 Initialize Event (Event ID: 12906654, Slot Number: 2, Arguments: {2902300, 2901300, 2901301, 2903300, 2903301, 12901802, 12900700, 12905700})
+     25 Initialize Event (Event ID: 12906658, Slot Number: 2, Arguments: {2902300, 2901300, 12901802, 12900700, 12905700, 12905710})
+     26 Initialize Event (Event ID: 12906666, Slot Number: 2, Arguments: {2900300, 2902310, 2903310, 2903311, 12901802, 12905720, 12905710})
+     27 Initialize Event (Event ID: 12906670, Slot Number: 2, Arguments: {12901802, 2903310, 2903311})
+     28 Initialize Event (Event ID: 12901230, Slot Number: 2, Arguments: {12900300, 2901310, 2901920})
+     29 Initialize Event (Event ID: 12901225, Slot Number: 2, Arguments: {12901802, 209000})
+     30 Initialize Event (Event ID: 12901235, Slot Number: 2, Arguments: {12905720, 209000, 9329})
+     31 Initialize Event (Event ID: 12901212, Slot Number: 2, Arguments: {12901802, 120900160, 120901160, 120902160, 120903160, 120902160, 120903160, 6360})
+     32 Initialize Event (Event ID: 12906662, Slot Number: 2, Arguments: {2900300, 209010, 12901802, 12905700, 12905720})
+     33 Initialize Event (Event ID: 12906674, Slot Number: 2, Arguments: {2900300, 12901802, 1082130432, 1086324736})
+     34 Initialize Event (Event ID: 12901207, Slot Number: 2, Arguments: {2900300, 2901300, 2901301, 2903300, 2903301, 12901802})
+     35 Initialize Event (Event ID: 12901216, Slot Number: 2, Arguments: {2900300, 2902300, 0, 7001, 12901802, 12905700, 12900700, 12900300})
+     36 Initialize Event (Event ID: 12904763, Slot Number: 0, Arguments: {2900300})
+
+
+String Table:
+0: N:\SPRJ\data\Param\event\m29.emevd
+70: 
+72: 
+74: 
+76: 
+78: 
+
+
+
+Linked .emevd Files:
+N:\SPRJ\data\Param\event\m29.emevd

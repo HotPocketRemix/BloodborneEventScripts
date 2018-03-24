@@ -1,0 +1,105 @@
+Event ID: 0, Int: 0
+Parameters: {} ()
+      0 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+      1 Initialize Event (Event ID: 4294967295, Slot Number: 1, Arguments: {0})
+      2 Initialize Event (Event ID: 4294967295, Slot Number: 2, Arguments: {0})
+      3 Initialize Event (Event ID: 4294967295, Slot Number: 3, Arguments: {0})
+      4 Initialize Event (Event ID: 4294967295, Slot Number: 4, Arguments: {0})
+      5 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+      6 Initialize Event (Event ID: 12900000, Slot Number: 0, Arguments: {2901006, 12900000})
+      7 Initialize Event (Event ID: 12900000, Slot Number: 1, Arguments: {2901007, 12900001})
+      8 Initialize Event (Event ID: 12900000, Slot Number: 2, Arguments: {2901008, 12900002})
+      9 Initialize Event (Event ID: 12900000, Slot Number: 3, Arguments: {2901009, 12900003})
+     10 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+     11 Initialize Event (Event ID: 12900000, Slot Number: 4, Arguments: {2901012, 12900004})
+     12 Initialize Event (Event ID: 12900000, Slot Number: 5, Arguments: {2901013, 12900005})
+     13 Initialize Event (Event ID: 12900000, Slot Number: 6, Arguments: {2901014, 12900006})
+     14 Initialize Event (Event ID: 12900000, Slot Number: 7, Arguments: {2901015, 12900007})
+     15 Initialize Event (Event ID: 12901146, Slot Number: 0, Arguments: {2903001, 2900101})
+     16 Initialize Event (Event ID: 12900064, Slot Number: 0, Arguments: {2901016, 12900512, 9921, 19921})
+     17 Initialize Event (Event ID: 12901146, Slot Number: 1, Arguments: {2903002, 2900102})
+     18 Initialize Event (Event ID: 12901146, Slot Number: 2, Arguments: {2903003, 2900103})
+     19 Initialize Event (Event ID: 12901146, Slot Number: 3, Arguments: {2903004, 2900104})
+     20 Initialize Event (Event ID: 12901146, Slot Number: 4, Arguments: {2903005, 2900105})
+     21 Initialize Event (Event ID: 12901146, Slot Number: 5, Arguments: {2903006, 2900106})
+     22 Initialize Event (Event ID: 12901146, Slot Number: 6, Arguments: {2903007, 2900107})
+     23 Initialize Event (Event ID: 12901146, Slot Number: 7, Arguments: {2903008, 2900108})
+     24 Initialize Event (Event ID: 12901146, Slot Number: 8, Arguments: {2903009, 2900109})
+     25 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+     26 Initialize Event (Event ID: 4294967295, Slot Number: 1, Arguments: {0})
+     27 Initialize Event (Event ID: 12901146, Slot Number: 9, Arguments: {2903012, 2900110})
+     28 Initialize Event (Event ID: 12901146, Slot Number: 10, Arguments: {2903013, 2900111})
+     29 Initialize Event (Event ID: 12901146, Slot Number: 11, Arguments: {2903014, 2900112})
+     30 Initialize Event (Event ID: 12901146, Slot Number: 12, Arguments: {2903015, 2900113})
+     31 Initialize Event (Event ID: 12901146, Slot Number: 13, Arguments: {2903016, 2900114})
+     32 Initialize Event (Event ID: 12901146, Slot Number: 14, Arguments: {2903017, 2900115})
+     33 Initialize Event (Event ID: 12901146, Slot Number: 15, Arguments: {2903018, 2900116})
+     34 Initialize Event (Event ID: 4294967295, Slot Number: 2, Arguments: {0})
+     35 Initialize Event (Event ID: 4294967295, Slot Number: 3, Arguments: {0})
+     36 Initialize Event (Event ID: 12901146, Slot Number: 16, Arguments: {2903021, 2900117})
+     37 Initialize Event (Event ID: 12901146, Slot Number: 17, Arguments: {2903022, 2900118})
+     38 Initialize Event (Event ID: 12901146, Slot Number: 18, Arguments: {2903023, 2900119})
+     39 Initialize Event (Event ID: 12901146, Slot Number: 19, Arguments: {2903024, 2900120})
+     40 Initialize Event (Event ID: 12901146, Slot Number: 20, Arguments: {2903025, 2900121})
+     41 Initialize Event (Event ID: 12901146, Slot Number: 21, Arguments: {2903026, 2900122})
+     42 Initialize Event (Event ID: 12901146, Slot Number: 22, Arguments: {2903027, 2900123})
+     43 Initialize Event (Event ID: 12901146, Slot Number: 23, Arguments: {2903028, 2900124})
+     44 Initialize Event (Event ID: 4294967295, Slot Number: 4, Arguments: {0})
+     45 Initialize Event (Event ID: 4294967295, Slot Number: 5, Arguments: {0})
+     46 Initialize Event (Event ID: 12901146, Slot Number: 24, Arguments: {2903031, 2900125})
+     47 Initialize Event (Event ID: 12901146, Slot Number: 25, Arguments: {2903032, 2900126})
+     48 Initialize Event (Event ID: 12901146, Slot Number: 26, Arguments: {2903033, 2900127})
+     49 Initialize Event (Event ID: 12901146, Slot Number: 27, Arguments: {2903034, 2900128})
+     50 Initialize Event (Event ID: 12900000, Slot Number: 8, Arguments: {2901024, 12900010})
+     51 Initialize Event (Event ID: 12900000, Slot Number: 9, Arguments: {2901025, 12900011})
+     52 Initialize Event (Event ID: 12900000, Slot Number: 10, Arguments: {2901026, 12900012})
+     53 Initialize Event (Event ID: 12945000, Slot Number: 0, Arguments: {0})
+     54 Initialize Event (Event ID: 12945001, Slot Number: 0, Arguments: {0})
+     55 Initialize Event (Event ID: 12945002, Slot Number: 0, Arguments: {0})
+     56 Initialize Event (Event ID: 12945003, Slot Number: 0, Arguments: {0})
+
+Event ID: 12945000, Int: 0
+Parameters: {} ()
+      0 Change Character Enable State (Entity ID: 2902532, Disabled/Enabled: Disabled)
+      1 IF HP Ratio (Result Condition Group: AND(01), Target Entity ID: 02902530, Comparison Type: <=, Target HP Ratio: 0.000)
+      2 IF Character Has Event Message (Result Condition Group: AND(01), Target Entity ID: 02902530, Target Event Message ID: 00000010, Should Have: TRUE)
+      3 IF Condition Group (Result Condition Group: MAIN, Desired Condition Group State: PASS, Target Condition Group: AND(01))
+      4 Issue Short-range Warp Request (Entity ID: 2902532, Warp Type: Character, Warp Destination Entity ID: 2902530, Dummypoly ID: 90)
+      5 Change Character Enable State (Entity ID: 2902532, Disabled/Enabled: Enabled)
+      6 Force Animation Playback (Entity ID: 2902532, Animation ID: 2250, Should Loop: TRUE, Should Wait For Completion: FALSE, Ignore Wait For Transition: FALSE)
+      7 Force Character Treasure (Character Entity ID: 2902532)
+
+Event ID: 12945001, Int: 0
+Parameters: {} ()
+      0 Change Character Enable State (Entity ID: 2902533, Disabled/Enabled: Disabled)
+      1 IF HP Ratio (Result Condition Group: AND(01), Target Entity ID: 02902531, Comparison Type: <=, Target HP Ratio: 0.000)
+      2 IF Character Has Event Message (Result Condition Group: AND(01), Target Entity ID: 02902531, Target Event Message ID: 00000010, Should Have: TRUE)
+      3 IF Condition Group (Result Condition Group: MAIN, Desired Condition Group State: PASS, Target Condition Group: AND(01))
+      4 Issue Short-range Warp Request (Entity ID: 2902533, Warp Type: Character, Warp Destination Entity ID: 2902531, Dummypoly ID: 90)
+      5 Change Character Enable State (Entity ID: 2902533, Disabled/Enabled: Enabled)
+      6 Force Animation Playback (Entity ID: 2902533, Animation ID: 2250, Should Loop: TRUE, Should Wait For Completion: FALSE, Ignore Wait For Transition: FALSE)
+      7 Force Character Treasure (Character Entity ID: 2902533)
+
+Event ID: 12945002, Int: 0
+Parameters: {} ()
+      0 IF Character Has SpEffect (Result Condition Group: MAIN, Target Entity ID: 02902530, SpEffect ID: 5676, Should Have: TRUE)
+      1 Clear SpEffect (Entity ID: 2902530, SpEffect ID: 5333)
+
+Event ID: 12945003, Int: 0
+Parameters: {} ()
+      0 IF Character Has SpEffect (Result Condition Group: MAIN, Target Entity ID: 02902531, SpEffect ID: 5676, Should Have: TRUE)
+      1 Clear SpEffect (Entity ID: 2902531, SpEffect ID: 5333)
+
+
+String Table:
+0: N:\SPRJ\data\Param\event\m29.emevd
+70: 
+72: 
+74: 
+76: 
+78: 
+
+
+
+Linked .emevd Files:
+N:\SPRJ\data\Param\event\m29.emevd

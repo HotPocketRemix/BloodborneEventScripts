@@ -1,0 +1,35 @@
+Event ID: 0, Int: 0
+Parameters: {} ()
+      0 Initialize Event (Event ID: 12900064, Slot Number: 0, Arguments: {2901000, 12900000, 2900100, 2900101})
+      1 Initialize Event (Event ID: 12900064, Slot Number: 1, Arguments: {2901001, 12900001, 2900100, 2900101})
+      2 Initialize Event (Event ID: 12900117, Slot Number: 0, Arguments: {2901100, 12900010, 2910000, 12900540})
+      3 Initialize Event (Event ID: 12900117, Slot Number: 1, Arguments: {2901101, 12900011, 2910000, 12900541})
+      4 Initialize Event (Event ID: 12900125, Slot Number: 0, Arguments: {2901100, 12900010, 12900540})
+      5 Initialize Event (Event ID: 12900125, Slot Number: 1, Arguments: {2901101, 12900011, 12900541})
+      6 Initialize Event (Event ID: 12901034, Slot Number: 0, Arguments: {12900000, 2903000})
+      7 Initialize Event (Event ID: 12901034, Slot Number: 1, Arguments: {12900001, 2903001})
+      8 Initialize Event (Event ID: 12901034, Slot Number: 2, Arguments: {12900010, 2903002})
+      9 Initialize Event (Event ID: 12901034, Slot Number: 3, Arguments: {12900011, 2903003})
+     10 Initialize Event (Event ID: 12901034, Slot Number: 4, Arguments: {12900012, 2903004})
+     11 Initialize Event (Event ID: 12901034, Slot Number: 5, Arguments: {12900013, 2903005})
+     12 Initialize Event (Event ID: 12901146, Slot Number: 0, Arguments: {2902010, 2901700})
+     13 Initialize Event (Event ID: 12901146, Slot Number: 1, Arguments: {2902011, 2901701})
+     14 Initialize Event (Event ID: 12901146, Slot Number: 2, Arguments: {2902012, 2901702})
+     15 Initialize Event (Event ID: 12900209, Slot Number: 0, Arguments: {2902020, 2901010, 12900480, 12900485})
+     16 Initialize Event (Event ID: 12906454, Slot Number: 0, Arguments: {2900200, 2900201, 6200, 2902200})
+     17 Initialize Event (Event ID: 12906454, Slot Number: 1, Arguments: {2900200, 2900202, 6200, 2902201})
+     18 Initialize Event (Event ID: 12906454, Slot Number: 2, Arguments: {2900200, 2900203, 6200, 2902202})
+
+
+String Table:
+0: N:\SPRJ\data\Param\event\m29.emevd
+70: 
+72: 
+74: 
+76: 
+78: 
+
+
+
+Linked .emevd Files:
+N:\SPRJ\data\Param\event\m29.emevd

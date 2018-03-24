@@ -1,0 +1,30 @@
+Event ID: 0, Int: 0
+Parameters: {} ()
+      0 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+      1 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+      2 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+      3 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+      4 Initialize Event (Event ID: 4294967295, Slot Number: 1, Arguments: {0})
+      5 Initialize Event (Event ID: 4294967295, Slot Number: 0, Arguments: {0})
+      6 Initialize Event (Event ID: 4294967295, Slot Number: 1, Arguments: {0})
+      7 Initialize Event (Event ID: 4294967295, Slot Number: 2, Arguments: {0})
+      8 Initialize Event (Event ID: 4294967295, Slot Number: 2, Arguments: {0})
+      9 Initialize Event (Event ID: 4294967295, Slot Number: 3, Arguments: {0})
+     10 Initialize Event (Event ID: 4294967295, Slot Number: 3, Arguments: {0})
+     11 Initialize Event (Event ID: 4294967295, Slot Number: 4, Arguments: {0})
+     12 Initialize Event (Event ID: 4294967295, Slot Number: 4, Arguments: {0})
+     13 Initialize Event (Event ID: 4294967295, Slot Number: 5, Arguments: {0})
+
+
+String Table:
+0: N:\SPRJ\data\Param\event\m29.emevd
+70: 
+72: 
+74: 
+76: 
+78: 
+
+
+
+Linked .emevd Files:
+N:\SPRJ\data\Param\event\m29.emevd

@@ -1,0 +1,16 @@
+Event ID: 0, Int: 0
+Parameters: {} ()
+      0 Set Character Animation State (Entity ID: 2900100, Disabled/Enabled: Disabled)
+      1 Set SpEffect (Entity ID: 2900100, SpEffect ID: 5420, Apply SpEffect HP Correction to NPC Parts: FALSE)
+      2 Set SpEffect (Entity ID: 2900101, SpEffect ID: 5420, Apply SpEffect HP Correction to NPC Parts: FALSE)
+      3 Set SpEffect (Entity ID: 2900102, SpEffect ID: 5420, Apply SpEffect HP Correction to NPC Parts: FALSE)
+      4 Set SpEffect (Entity ID: 2900103, SpEffect ID: 5420, Apply SpEffect HP Correction to NPC Parts: FALSE)
+      5 Set SpEffect (Entity ID: 2900104, SpEffect ID: 5420, Apply SpEffect HP Correction to NPC Parts: FALSE)
+      6 Set SpEffect (Entity ID: 2900105, SpEffect ID: 5420, Apply SpEffect HP Correction to NPC Parts: FALSE)
+
+
+String Table:
+
+
+
+Linked .emevd Files:
